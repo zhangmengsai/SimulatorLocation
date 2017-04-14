@@ -12,7 +12,7 @@
 
 <p>1、提供各种国际坐标与国内坐标的转换 ，国际使用的坐标是WGS-84，高德使用的火星坐标（GCJ-02），百度使用的是自己的坐标（BD-09）。</p>
 
-<p>2、在国内可以选取地点测量目标地方的经纬度，<a href="">百度</a>，<a href="http://lbs.amap.com/console/show/picker">高德</a></p>
+<p>2、在国内可以选取地点测量目标地方的经纬度，<a href="http://api.map.baidu.com/lbsapi/getpoint/index.html">百度</a>，<a href="http://lbs.amap.com/console/show/picker">高德</a></p>
 
 <p>3、iPhone所需要的坐标是WGS-84，我们获取的是GCJ-02或者BD-09，这里我们利用最新上述函数算法来转换出你所需要的真实坐标。</p>
 

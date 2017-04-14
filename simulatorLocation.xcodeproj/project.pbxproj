@@ -15,6 +15,7 @@
 		1F67A89E1EA075E9001698AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F67A89C1EA075E9001698AA /* LaunchScreen.storyboard */; };
 		1F67A8A91EA075E9001698AA /* simulatorLocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F67A8A81EA075E9001698AA /* simulatorLocationTests.m */; };
 		1F67A8B41EA075E9001698AA /* simulatorLocationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F67A8B31EA075E9001698AA /* simulatorLocationUITests.m */; };
+		1F67A8C31EA07630001698AA /* MSManageLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F67A8C21EA07630001698AA /* MSManageLocation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,9 @@
 		1F67A8AF1EA075E9001698AA /* simulatorLocationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simulatorLocationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F67A8B31EA075E9001698AA /* simulatorLocationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = simulatorLocationUITests.m; sourceTree = "<group>"; };
 		1F67A8B51EA075E9001698AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F67A8C11EA07630001698AA /* MSManageLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSManageLocation.h; sourceTree = "<group>"; };
+		1F67A8C21EA07630001698AA /* MSManageLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSManageLocation.m; sourceTree = "<group>"; };
+		1F67A8C41EA07724001698AA /* Location.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Location.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +109,14 @@
 				1F67A8921EA075E9001698AA /* AppDelegate.m */,
 				1F67A8941EA075E9001698AA /* ViewController.h */,
 				1F67A8951EA075E9001698AA /* ViewController.m */,
+				1F67A8C11EA07630001698AA /* MSManageLocation.h */,
+				1F67A8C21EA07630001698AA /* MSManageLocation.m */,
 				1F67A8971EA075E9001698AA /* Main.storyboard */,
 				1F67A89A1EA075E9001698AA /* Assets.xcassets */,
 				1F67A89C1EA075E9001698AA /* LaunchScreen.storyboard */,
 				1F67A89F1EA075E9001698AA /* Info.plist */,
 				1F67A88E1EA075E9001698AA /* Supporting Files */,
+				1F67A8C41EA07724001698AA /* Location.gpx */,
 			);
 			path = simulatorLocation;
 			sourceTree = "<group>";
@@ -207,6 +214,7 @@
 				TargetAttributes = {
 					1F67A88A1EA075E9001698AA = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = M3X6V6RQ25;
 						ProvisioningStyle = Automatic;
 					};
 					1F67A8A31EA075E9001698AA = {
@@ -276,6 +284,7 @@
 				1F67A8961EA075E9001698AA /* ViewController.m in Sources */,
 				1F67A8931EA075E9001698AA /* AppDelegate.m in Sources */,
 				1F67A8901EA075E9001698AA /* main.m in Sources */,
+				1F67A8C31EA07630001698AA /* MSManageLocation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +433,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M3X6V6RQ25;
 				INFOPLIST_FILE = simulatorLocation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "----.simulatorLocation";
@@ -435,6 +445,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M3X6V6RQ25;
 				INFOPLIST_FILE = simulatorLocation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "----.simulatorLocation";
